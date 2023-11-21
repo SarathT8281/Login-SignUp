@@ -25,7 +25,7 @@ function LoginSignUp() {
         </div>
         <div className="input">
         <RiLockPasswordFill className='icon' />
-        <input type="text" placeholder='Password' />
+        <input type="password" placeholder='Password' />
         </div>
       </div>
       {action === "Sign Up"? <div></div>:<div className="forgot-password">Lost Password..? <span>Click Here..!</span></div>}
